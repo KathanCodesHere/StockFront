@@ -69,7 +69,7 @@ const Navbar = () => {
             className="ml-6 px-6 py-3 bg-gradient-to-r from-[#F5D37E] to-[#E0A627] text-[#0d0d0d] text-sm font-semibold uppercase rounded-md shadow hover:opacity-90 transition-transform hover:scale-105"
           > */}
           <Link 
-            to={'/registration'}
+            to={'/SignUp'}
             className="ml-6 px-6 py-3 bg-gradient-to-r from-[#F5D37E] to-[#E0A627] text-[#0d0d0d] text-sm font-semibold uppercase rounded-md shadow hover:opacity-90 transition-transform hover:scale-105"
           >
           
