@@ -4,15 +4,15 @@ import logo from '../../assets/Logo (1).png';
 import { Link } from "react-router-dom";
 import DropdownLink from './DropdownLink';
 
-const Logo = () => (
-  <Link to={'/'}>
-    <img
-      src={logo}
-      alt="Logo"
-      className="w-[214px] h-[80px] object-contain cursor-pointer"
-    />
-  </Link>
-);
+const Logo = () => {
+  return (
+    <div className="flex items-center gap-1 text-3xl font-extrabold cursor-pointer">
+      <span className="text-[#D4AF37]">Octa</span>
+      {/* <span className="text-[#D4AF37] text-4xl">X</span> */}
+      <span className="text-[#F5F5F5]">Broking</span>
+    </div>
+  );
+};
 
 const NAV_LINKS = [
   { name: 'Home', href: '/' },

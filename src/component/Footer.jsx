@@ -35,9 +35,9 @@ const Footer = () => {
           {/* Logo + Description */}
           <div>
             <div className="flex items-center text-3xl font-extrabold cursor-default mb-4">
-              <span className="text-[#D4AF37]">C</span>
-              <span className="text-[#D4AF37] text-4xl">X</span>
-              <span className="text-[#F5F5F5] ml-1">Meta</span>
+              <span className="text-[#D4AF37]">Octa</span>
+              {/*<span className="text-[#D4AF37] text-4xl">X</span>*/}
+              <span className="text-[#F5F5F5] ml-1">Broking</span>
             </div>
 
             <p className="text-[#C8C8C8] text-sm mb-6">
@@ -79,7 +79,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 py-4 text-center text-sm text-[#C8C8C8]">
           © {new Date().getFullYear()} All Rights Reserved — 
           <span className="text-[#D4AF37] ml-1 cursor-pointer hover:underline">
-            CX Meta
+            OctaBroking
           </span>
         </div>
       </div>

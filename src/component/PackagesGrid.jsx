@@ -7,9 +7,9 @@ import metaStock  from "../assets/metaStock.jpg"
 import tradingImage  from "../assets/tradingImage.jpg"
 
 export const packageData = [
-  { id: 1, title: "Meta Quotes", price: "5,999", rating: 1, images: metaStock, category: "metaStock", redirectUrl : "https://www.metaquotes.net/" },
-  { id: 2, title: "Trading View", price: "5,999", rating: 5, images: tradingImage, category: "Trips",redirectUrl : "https://in.tradingview.com/" },
-  { id: 3, title: "Forex Factory", price: "5,999", rating: 4.5, images: forex, category: "Trips", redirectUrl:'https://www.forexfactory.com/' },
+  { id: 1, title: "LiveQuotes", price: "5,999", rating: 1, images: metaStock, category: "metaStock", redirectUrl : "https://www.metaquotes.net/" },
+  { id: 2, title: "Market Charts", price: "5,999", rating: 5, images: tradingImage, category: "Trips",redirectUrl : "https://in.tradingview.com/" },
+  { id: 3, title: "Forex Calendar", price: "5,999", rating: 4.5, images: forex, category: "Trips", redirectUrl:'https://www.forexfactory.com/' },
 ];
 
 export default function PackagesGrid() {

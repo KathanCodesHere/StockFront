@@ -11,11 +11,10 @@ const CallbackSection = () => {
         {/* Header */}
         <div className="mb-10">
           <h2 className="text-4xl md:text-5xl font-bold mb-2 text-white">
-            Request A Free Call <span className="text-[#E5C07B]">Back.</span>
+            Start Your Free Call  <span className="text-[#E5C07B]">Back.</span>
           </h2>
           <p className="text-gray-400 max-w-2xl">
-            Our platform values your engagement and the opportunity to assist
-            you. If you have any questions, concerns, or feedback, we’re here to help.
+            We appreciate your interest in our platform. For any questions, concerns, or suggestions, don’t hesitate to reach out — we’re here for you.
           </p>
         </div>
 

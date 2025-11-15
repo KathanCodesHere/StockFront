@@ -7,12 +7,12 @@ import ServicesSection from '../component/Services';
 
 const tabContent = {
   JOURNEY: {
-    title: "Our Founding Story and Milestones",
-    text: "Established in 2010, our journey began with a simple yet powerful vision: to empower the underserved segment of society through ethical financial inclusion. We started with a small team in Chennai and have since expanded across three states, achieving a 500% growth in our customer base over the last five years.",
+    title: "Founding Story & Growth",
+    text: "Established in 2010, we set out to empower underserved communities through ethical financial inclusion. Today, our presence spans three states, with a 500% growth in our customer base in just five years.",
   },
   "SUCCESS MANTRA": {
-    title: "Our Guiding Philosophy",
-    text: "At CxMeta, we believe in potential, possibilities, and dreams. Our socially inclusive model focuses not just on current finance but future earning capacity. This approach has empowered thousands of individuals to elevate their lives and pursue their dreams confidently.",
+    title: "Our Vision & Values",
+    text: "OctaBroking empowers people to dream bigger. Our approach blends social inclusivity with financial foresight, enabling individuals to grow, thrive, and confidently reach their goals.",
   },
 };
 
@@ -20,9 +20,9 @@ const About = () => {
   const [activeTab, setActiveTab] = useState("SUCCESS MANTRA");
 
   const tabs = ["JOURNEY", "SUCCESS MANTRA"];
-  const bannerTitle = "About Us";
+  const bannerTitle = "WHO WE ARE";
   const bannerDescription =
-    "We perform in-depth analysis and research to ensure that each financial strategy is tailored for maximum growth and sustainability.";
+    "Our team dives deep into analysis and market trends to create financial solutions that drive growth and ensure lasting success.";
 
   const ChevronRightIcon = ({ size = 20, className = "ml-1" }) => (
     <svg
@@ -84,7 +84,7 @@ const About = () => {
 
       {/* Button */}
       <button className="mt-8 px-6 py-3 bg-[#D4AF37] text-black font-semibold rounded-lg shadow-lg hover:shadow-[0_0_20px_rgba(212,175,55,0.6)] transition-transform duration-300 hover:scale-[1.05] flex items-center">
-        Get Started
+        Join Us
         <ChevronRightIcon size={20} className="ml-1" />
       </button>
     </div>
@@ -125,16 +125,16 @@ const About = () => {
           {/* LEFT TEXT */}
           <div>
             <h2 className="text-4xl font-extrabold text-[#D4AF37] drop-shadow-md">
-              Let's Build Future Together
+              Build Your Future With Us
             </h2>
             <p className="text-gray-300 mt-4 max-w-md">
-              Job Searching Just Got Easy. Use CxMeta to run a hiring site and earn money in the process.
+              OctaBroking makes job searching easy. Run a hiring site, empower job seekers, and earn at the same time.
             </p>
           </div>
 
           {/* RIGHT FORM BOX */}
           <div className="bg-[#1A1A1A]/90 border border-[#D4AF37]/40 shadow-[0_0_25px_rgba(212,175,55,0.45)] p-8 rounded-xl w-full max-w-md">
-            <h3 className="text-xl font-semibold text-white mb-6">Need Help?</h3>
+            <h3 className="text-xl font-semibold text-white mb-6">We’re Here to Help</h3>
 
             <form className="space-y-4">
 
