@@ -47,11 +47,10 @@ const ServicesComponent = () => {
               level={1}
               className="!text-[#cda43d] !text-[46px] !font-extrabold !mb-4 leading-tight drop-shadow-lg"
             >
-              Services
+              Strategic Solutions
             </Title>
             <Paragraph className="!text-gray-300 !text-base !leading-relaxed max-w-2xl">
-              Discover our collection of Case Studies showcasing successful
-              outcomes and real-world impact for our clients.
+              Real stories. Real results. Discover the impact we’ve created for our clients.
             </Paragraph>
           </div>
         </div>

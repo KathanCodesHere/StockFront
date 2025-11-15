@@ -22,12 +22,12 @@ const HeroImageArea = () => {
         <img
           src={ImageBack}
           alt="Trading Services"
-          className="w-full md:max-w-sm lg:max-w-md h-auto object-cover z-10 opacity-95"
+          className="w-full md:max-w-sm lg:max-w-xl h-auto object-cover z-10 opacity-95"
           style={{ clipPath: "ellipse(60% 70% at 50% 50%)" }}
         />
 
         {/* Floating Stats */}
-        <div className="absolute -top-6 -left-10">
+        {/*<div className="absolute -top-6 -left-10">
           <StatBox value="22K+" label="Clients" Icon={Users} />
         </div>
 
@@ -37,7 +37,7 @@ const HeroImageArea = () => {
 
         <div className="absolute -bottom-6 left-1/4">
           <StatBox value="40+" label="Specialties" Icon={UserCheck} />
-        </div>
+        </div>*/}
       </div>
     </div>
   );
@@ -52,19 +52,19 @@ const CTA = () => {
           {/* Left Side Content */}
           <div>
             <h1 className="text-[42px] md:text-[48px] font-[700] leading-[50px] text-[#F5F5F5]">
-              Best Trading Services
+              Trusted Trading Services
               <span className="block text-xl font-medium text-[#D4AF37] mt-2">
-                (10+ Years of Experience)
+                (Backed by 10+ Years of Experience)
               </span>
             </h1>
 
             <p className="text-[18px] leading-[28px] text-[#C8C8C8] mt-4 mb-8 max-w-lg">
-              Our platform provides real-time market analysis and insights to help
-              traders make informed decisions and succeed in the financial markets.
+              Our platform delivers accurate market updates and actionable insights, 
+              empowering you to make confident and informed trading decisions.
             </p>
 
             <button className="px-8 py-3 bg-[#111] text-[#F5F5F5] text-lg font-semibold rounded-xl shadow-xl border border-[#D4AF37]/50 transition-all duration-300 hover:bg-[#D4AF37] hover:text-black hover:shadow-[0_0_20px_#D4AF37] hover:scale-[1.05]">
-              Get Started
+               Begin Now
             </button>
           </div>
 

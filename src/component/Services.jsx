@@ -5,24 +5,24 @@ import {
 // --- Services Data ---
 const SERVICES = [
   {
-    title: 'Loans Against Shares',
+    title: 'Loan on Financial Assets',
     Icon: PiggyBank,
-    description: 'A loan where you pledge your shares, mutual funds or life insurance policies as collateral.',
+    description: 'Borrow money by pledging your shares, mutual funds, or insurance policies — without selling your investments.',
   },
   {
-    title: 'Equity Derivatives',
+    title: 'Stock Market Derivative Products',
     Icon: Handshake,
-    description: 'Financial instruments whose value is based on equity movement of underlying assets.',
+    description: 'Trade financial instruments whose value depends on the price movements of underlying stocks.',
   },
   {
-    title: 'Commodities',
+    title: 'Trade in Raw Materials',
     Icon: Sprout,
-    description: 'Commodities are raw materials or agricultural products that can be bought or sold.',
+    description: 'Trade in essential economic goods used globally across industries.',
   },
   {
-    title: 'Wealth Management',
+    title: 'Personal Wealth Advisory',
     Icon: DollarSign,
-    description: 'Personalized financial planning & investment advisory to grow your wealth.',
+    description: 'Get expert financial planning, investment guidance, and strategies tailored to grow and protect your wealth.',
   },
   {
     title: 'Commodities',
@@ -90,7 +90,7 @@ const ServicesSection = ({ section }) => {
 
         {/* Title */}
         <h2 className="text-4xl font-elMessiri font-bold text-center text-[#F2D7A6] mb-12 tracking-wide">
-          {section === "about" ? "What We Offer" : "Our Services"}
+          {section === "about" ? "What We Offer" : "Our Expertise"}
         </h2>
 
         {/* Services Grid */}
